@@ -787,7 +787,13 @@ height:250vh;
 
 @media only screen and (min-width: 320px) and (max-width: 1024px) and (orientation: landscape){
 
-
+.wrapper{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap:15px;
+grid-auto-rows:minmax(100px, auto);
+height:300vh;
+}
 
 h1{
   font-family: 'Fraunces', serif;
@@ -833,7 +839,7 @@ a:hover{
   grid-template-columns: repeat(2, 1fr);
   grid-gap:20px;
   grid-auto-rows:minmax(100px, auto);
-  height:150vh;
+  height:170vh;
   }
 
   h1{
@@ -855,21 +861,21 @@ a:hover{
 #lieu{
   font-family: 'Fraunces', serif;
   font-weight: 800;
-  font-size: 3.7em; 
+  font-size: 3em; 
 }
 
 
 #info{
   font-family: 'Fraunces', serif;
   font-weight: 400;
-  font-size:2.5em;
+  font-size:2em;
 }
 
 #texte{
   color: white;
   font-family: 'Fraunces', serif;
   font-weight: 400;
-  font-size:2em;
+  font-size:1.9em;
 }
 
 .archione{
@@ -941,7 +947,7 @@ a:hover{
 }
 
 .archifourteen{
-  min-height: 300px !important;
+  min-height: 250px !important;
   grid-column:1;
   grid-row:6;
 }
@@ -987,16 +993,19 @@ a:hover{
 }
 
 .papierfour{
+  min-height: 200px !important;
   grid-column:2;
   grid-row:2;
 }
 
 .papierfive{
+  min-height: 200px !important;
   grid-column:1;
   grid-row:3;
 }
 
 .papiersix{
+  min-height: 200px !important;
   grid-column:2;
   grid-row:3;
 }
@@ -1045,7 +1054,7 @@ a:hover{
 }
 
 .papierfifteen{
-  min-height: 250px !important;
+  min-height: 200px !important;
   grid-column:2;
   grid-row:7;
 }
@@ -1137,7 +1146,7 @@ a:hover{
 }
 
 .conteten{
-  min-height: 350px !important;
+  min-height: 250px !important;
   grid-column:1;
   grid-row:5;
 }
@@ -1246,7 +1255,7 @@ a:hover{
 }
 
 .migrtwelve{
-  min-height: 300px !important;
+  min-height: 250px !important;
   grid-column:2;
   grid-row:6;
 }
