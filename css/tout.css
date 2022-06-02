@@ -16,7 +16,7 @@ h1{
 }
 
 a {
-    font-family: 'Fraunces', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 800;
   font-size:2.5em;
   color: white;
@@ -24,7 +24,7 @@ a {
   padding:5px;
   text-align:center;
   vertical-align:middle;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -1301,7 +1301,7 @@ a:hover{
   grid-template-columns: repeat(2, 1fr);
   grid-gap:20px;
   grid-auto-rows:minmax(100px, auto);
-  height:170vh;
+  height:180vh;
   }
 
   h1{
