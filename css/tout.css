@@ -19,12 +19,12 @@ a {
   font-family: 'Fraunces', serif;
   font-weight: 800;
   font-size:2.5em;
-  color: white;
+  color: red;
   line-height: 1.2em;
   padding:5px;
   text-align:center;
   vertical-align:middle;
-  text-decoration: underline;
+  text-decoration:  underline dotted;
 }
 
 a:hover {
@@ -242,7 +242,7 @@ height:250vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #87CEEB;
+  background-color: #ffe8ee;
   grid-column:3;
   grid-row:6;
   border-radius:20px;
@@ -423,7 +423,7 @@ height:250vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #87CEEB;
+  background-color: #ffe8ee;
   grid-column:1;
   grid-row:7;
   border-radius:20px;
@@ -440,7 +440,7 @@ height:250vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #87CEEB;
+  background-color: #ffe8ee;
   grid-column:3;
   grid-row:7;
   border-radius:20px;
@@ -590,7 +590,7 @@ height:250vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #87CEEB;
+  background-color: #ffe8ee;
   grid-column:1;
   grid-row:6;
   border-radius:20px;
@@ -607,7 +607,7 @@ height:250vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #87CEEB;
+  background-color: #ffe8ee;
   grid-column:3;
   grid-row:6;
   border-radius:20px;
@@ -759,7 +759,7 @@ height:250vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #87CEEB;
+  background-color: #ffe8ee;
   grid-column:1;
   grid-row:6;
   border-radius:20px;
@@ -969,7 +969,6 @@ a:hover{
 }
 
 .archieighteen{
-  background-color: #87CEEB;
   grid-column:2;
   grid-row:8;
 }
